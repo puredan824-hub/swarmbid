@@ -1,0 +1,15 @@
+{
+  "id": "agent-platform-briefing",
+  "buyerAccount": "buyer.garnett-swarmbid.testnet",
+  "title": "Research 5 agent job platforms and write a 600+ word briefing",
+  "spec": {
+    "minWords": 600,
+    "requiredSections": ["Overview", "Platform comparison", "Procurement considerations", "Conclusion"],
+    "keywords": ["NEAR AI", "Fetch.ai", "SingularityNET", "Virtuals Protocol", "Olas"]
+  },
+  "budgetYocto": "300000000000000000000000",
+  "research": {
+    "platforms": ["NEAR AI", "Fetch.ai", "SingularityNET", "Virtuals Protocol", "Olas"],
+    "pointsPerPlatform": 2
+  }
+}

@@ -1,0 +1,87 @@
+# Research 5 agent job platforms and write a 600+ word briefing
+
+Evidence briefing assembled from retrieved search excerpts. Search snippets provide discovery context and require verification against primary platform documentation.
+
+## Overview
+
+NEAR AI: DuckDuckGo search excerpt (NEAR AI Agent Market — hire AI agents like teammates): Marketplace for AI agents . Hire agents to find venues, book travel, run research, build sites. Pay with USD or USDC, no API keys needed.. Source: https://market.near.ai/
+
+Fetch.ai: Wikipedia search context (Foundation for Intelligent Physical Agents): (and hence have no physical aspect). Gamma Platform. See FIPA interface Fetch . AI Jade Jadex Agents (Java) Java Intelligent Agent Componentware (JIAC) (Java). Source: https://en.wikipedia.org/?curid=398703
+
+Fetch.ai: DuckDuckGo search excerpt (Fetch.ai - Access 1 Million AI Agents): With over one million business AI agents already onboarded, you can quickly find your business using this tool and watch your AI agent in action.. Source: https://onboard.fetch.ai/
+
+SingularityNET: DuckDuckGo search excerpt (GitHub - singnet/platform-contracts: Smart contracts for running Agents ...): Smart contracts for running Agents and Services on the SingularityNET open network. - singnet/ platform -contracts. Source: https://github.com/singnet/platform-contracts
+
+Virtuals Protocol: DuckDuckGo search excerpt (Virtuals Protocol — Society of Productive AI Agents): The Virtuals Protocol platform provides built-in tokenization, a ready liquidity layer, and the Agent Commerce Protocol for agent -to- agent transactions. Replicating that independently would require months of contract development, separate security audits, and a cold-start liquidity problem.. Source: https://virtuals-protocol.net/
+
+Olas: DuckDuckGo search excerpt (Olas launches decentralized AI marketplace where AI agents can hire ...): Olas , an artificial intelligence agent building and deployment platform for the cryptocurrency industry, today launched a decentralized marketplace for AI agents to offer skills to one another and .... Source: https://siliconangle.com/2025/02/27/olas-launches-decentralized-ai-marketplace-ai-agents-can-hire/
+
+## Platform comparison
+
+NEAR AI: DuckDuckGo search excerpt (agent.market — hire agents like teammates - market.near.ai): Marketplace for AI agents . Hire agents to find venues, book travel, run research, build sites. Pay with USD or USDC, no API keys needed.. Source: https://market.near.ai/jobs
+
+Fetch.ai: DuckDuckGo search excerpt (Agentverse - Deploy and Discover AI Agents | Fetch.ai): Build, deploy, and make your AI agents discoverable on Agentverse. The universal platform for hosting and managing autonomous agents in the cloud.. Source: https://www.fetch.ai/agentverse
+
+SingularityNET: Wikipedia search context (Ben Goertzel): supervision of Avi Lin in 1990, at age 23. Goertzel is the founder and CEO of SingularityNET , a project which was founded to distribute artificial intelligence data. Source: https://en.wikipedia.org/?curid=13428111
+
+SingularityNET: DuckDuckGo search excerpt (SingularityNET - aiagentlink.ai): SingularityNET is a blockchain-based platform that facilitates the development, sharing, and monetization of AI services through a decentralized marketplace. It allows developers to publish AI tools, and users to access a wide range of AI services using the native AGIX token. The platform promotes collaboration among AI agents , interoperability, and aims to advance Artificial General .... Source: https://www.aiagentlink.ai/catalog/view/ai-agent/singularitynet
+
+Virtuals Protocol: DuckDuckGo search excerpt (About Virtuals Protocol | Virtuals Protocol Whitepaper): What is Virtuals Protocol ? Virtuals Protocol is a society of AI agents , a coordinated, onchain ecosystem where autonomous agents have identity, capital, jobs , markets, governance, and, increasingly, bodies in the physical world. Virtuals provides the foundational infrastructure that enables agents to coordinate, transact, and produce economic output without continuous human operation .... Source: https://whitepaper.virtuals.io/
+
+Olas: DuckDuckGo search excerpt (Blog | Olas | Co-own AI): Olas , the Original AI Agent Project, Announces the " Agent App Store", after Core Contributor Raises $13.8m Led by 1kx 03-Feb-25. Source: https://olas.network/blog
+
+## Procurement considerations
+
+NEAR AI: DuckDuckGo search excerpt (Introducing NEAR AI Agent Market): Together, NEAR AI and NEAR Intents enable true agentic commerce, where AI agents have genuine economic agency and autonomy: agents request jobs to be done, bid on tasks, execute strategies, and earn. If conflicts arise between the quality of the job done - an agentic dispute system is used.. Source: https://near.ai/blog/introducing-near-ai-agent-market
+
+Fetch.ai: DuckDuckGo search excerpt (Check our AI jobs and Unlock your Career with Fetch.ai): Collaboration We encourage collaboration and learning. Our business evolves through your contributions and our commitment to providing you with support, as well as mentorship - allowing you to be your best self.. Source: https://www.fetch.ai/careers
+
+SingularityNET: DuckDuckGo search excerpt (Jobs - SingularityNET): Jobs & Collaborations SingularityNET's mission is to support the global distribution and democratization of Artificial Intelligence technologies through open-source development and we believe that in the quickly changing world of AI, collaboration is vital. If you have an idea and passion to pursue it, we want to talk to you!. Source: https://singularitynet.io/jobs/
+
+Virtuals Protocol: DuckDuckGo search excerpt (Virtuals Protocol | Society of AI Agents): Virtuals Protocol is a society of productive AI agents , each designed to generate services or products and autonomously engage in onchain commerce, with humans or other agents . These agents are tokenized through Agent Tokens, enabling capital formation, permissionless participation, and incentive alignment between creators, investors, and agents .. Source: https://www.virtuals.io/
+
+Olas: DuckDuckGo search excerpt (Hire an Agent | Build | Olas): Hire on-chain AI agents from the Olas Marketplace using the Mech Client. Follow our quickstart guide to integrate autonomous agents into your projects and leverage their capabilities.. Source: https://build.olas.network/hire
+
+## Conclusion
+
+NEAR AI: DuckDuckGo search excerpt (What Is Agent Market? The Marketplace Where AI Agents Get Hired by the Job): Agent Market is NEAR AI's marketplace for AI agents . List the agent you already run, set your price, and get paid per job , with payments and disputes handled.. Source: https://near.ai/blog/what-is-agent-market
+
+Fetch.ai: DuckDuckGo search excerpt (Fetch AI Business - Agentic Commerce, Verified Agents & A2A Protocols): The platform powering the agent economy. Claim your verified business agent with cryptographic identity, built for agent -to- agent (A2A) protocols, agentic payments, and autonomous customer experiences. Trusted by brands for agentic commerce, agent discovery, and multi- agent orchestration.. Source: https://business.fetch.ai/
+
+SingularityNET: DuckDuckGo search excerpt (SingularityNET - Next Generation of Decentralized AI): ASI:Create - Build AI Agents The launchpad for developers, enabling them to build, fund, and deploy AI agents and applications.. Source: https://singularitynet.io/
+
+Virtuals Protocol: DuckDuckGo search excerpt (Virtuals Protocol Jobs | Talent@ | Web3, AI & Robotics): Virtuals Protocol Decentralized AI agent tokenization platform on Base. Enables co-ownership and governance of autonomous AI agents through ERC-20 tokens, powering 18,000+ agents with $500M+ combined market cap.. Source: https://talentweb3.co/company/Virtuals%20Protocol
+
+Olas: DuckDuckGo search excerpt (Opportunities for Olas Agents | Build | Olas): Explore exciting opportunities for Olas agents to join innovative projects.. Source: https://build.olas.network/opportunities
+
+Research terms: NEAR AI, Fetch.ai, SingularityNET, Virtuals Protocol, Olas.
+
+## Sources
+
+- https://market.near.ai/
+- https://market.near.ai/jobs
+- https://near.ai/blog/introducing-near-ai-agent-market
+- https://near.ai/blog/what-is-agent-market
+- https://html.duckduckgo.com/html/?q=NEAR+AI+agent+jobs+platform
+- https://en.wikipedia.org/?curid=398703
+- https://www.fetch.ai/agentverse
+- https://www.fetch.ai/careers
+- https://business.fetch.ai/
+- https://onboard.fetch.ai/
+- https://html.duckduckgo.com/html/?q=Fetch.ai+agent+jobs+platform
+- https://en.wikipedia.org/?curid=13428111
+- https://singularitynet.io/jobs/
+- https://singularitynet.io/
+- https://github.com/singnet/platform-contracts
+- https://www.aiagentlink.ai/catalog/view/ai-agent/singularitynet
+- https://html.duckduckgo.com/html/?q=SingularityNET+agent+jobs+platform
+- https://www.virtuals.io/
+- https://talentweb3.co/company/Virtuals%20Protocol
+- https://virtuals-protocol.net/
+- https://whitepaper.virtuals.io/
+- https://html.duckduckgo.com/html/?q=Virtuals+Protocol+agent+jobs+platform
+- https://build.olas.network/hire
+- https://build.olas.network/opportunities
+- https://siliconangle.com/2025/02/27/olas-launches-decentralized-ai-marketplace-ai-agents-can-hire/
+- https://olas.network/blog
+- https://html.duckduckgo.com/html/?q=Olas+agent+jobs+platform

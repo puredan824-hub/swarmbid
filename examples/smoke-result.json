@@ -1,0 +1,86 @@
+{
+  "points": 22,
+  "sources": 27,
+  "degraded": true,
+  "bids": [
+    {
+      "workerAccount": "researcher.garnett-swarmbid.testnet",
+      "priceYocto": "250000000000000000000000",
+      "etaMinutes": 5,
+      "reason": "Research package priced for 10 evidence points"
+    },
+    {
+      "workerAccount": "writer.garnett-swarmbid.testnet",
+      "priceYocto": "260000000000000000000000",
+      "etaMinutes": 7,
+      "reason": "Writing package priced for 600 words"
+    },
+    {
+      "workerAccount": "reviewer.garnett-swarmbid.testnet",
+      "priceYocto": "270000000000000000000000",
+      "etaMinutes": 3,
+      "reason": "Fixed price for review and deterministic formatting"
+    }
+  ],
+  "acceptance": {
+    "pass": true,
+    "checks": [
+      {
+        "name": "wordCount",
+        "pass": true,
+        "detail": "Measured 1115 words; minimum 600"
+      },
+      {
+        "name": "section:Overview",
+        "pass": true,
+        "detail": "Required heading: Overview"
+      },
+      {
+        "name": "section:Platform comparison",
+        "pass": true,
+        "detail": "Required heading: Platform comparison"
+      },
+      {
+        "name": "section:Procurement considerations",
+        "pass": true,
+        "detail": "Required heading: Procurement considerations"
+      },
+      {
+        "name": "section:Conclusion",
+        "pass": true,
+        "detail": "Required heading: Conclusion"
+      },
+      {
+        "name": "keyword:NEAR AI",
+        "pass": true,
+        "detail": "Required keyword: NEAR AI"
+      },
+      {
+        "name": "keyword:Fetch.ai",
+        "pass": true,
+        "detail": "Required keyword: Fetch.ai"
+      },
+      {
+        "name": "keyword:SingularityNET",
+        "pass": true,
+        "detail": "Required keyword: SingularityNET"
+      },
+      {
+        "name": "keyword:Virtuals Protocol",
+        "pass": true,
+        "detail": "Required keyword: Virtuals Protocol"
+      },
+      {
+        "name": "keyword:Olas",
+        "pass": true,
+        "detail": "Required keyword: Olas"
+      },
+      {
+        "name": "sha256",
+        "pass": true,
+        "detail": "Measured ef7a51f8d80e96cf0bbc5b6216fc767a5b81aaab6f76f9d53998629c48110c4f; expected ef7a51f8d80e96cf0bbc5b6216fc767a5b81aaab6f76f9d53998629c48110c4f"
+      }
+    ]
+  },
+  "sha256": "ef7a51f8d80e96cf0bbc5b6216fc767a5b81aaab6f76f9d53998629c48110c4f"
+}

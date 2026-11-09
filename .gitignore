@@ -1,0 +1,7 @@
+node_modules/
+.near-testnet-keys/
+*.env
+build/
+**/dist/
+/dashboard/data.json
+output/

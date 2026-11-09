@@ -1,0 +1,28 @@
+<!doctype html>
+<!-- Copy data.sample.json to data.json, serve the repository with any static
+     HTTP server, then open /dashboard/index.html. file:// cannot fetch JSON. -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SwarmBid Dashboard</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <header><div class="wrap"><h1>SwarmBid Dashboard</h1><p>Tasks, bids and receipts</p></div></header>
+  <main class="wrap">
+    <p id="load-status" role="status" aria-live="polite">Loading data.json...</p>
+    <section aria-labelledby="tasks-heading">
+      <h2 id="tasks-heading">Tasks</h2>
+      <div id="tasks"><p class="empty">No tasks.</p></div>
+    </section>
+    <section aria-labelledby="receipts-heading">
+      <h2 id="receipts-heading">Receipt wall</h2>
+      <div id="receipts" class="receipt-grid"><p class="empty">No receipts.</p></div>
+    </section>
+    <noscript>JavaScript is required to display data.json.</noscript>
+  </main>
+</body>
+</html>

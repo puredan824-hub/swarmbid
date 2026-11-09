@@ -1,0 +1,54 @@
+{
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Write task summary",
+      "state": "Released",
+      "budgetYocto": "300000000000000000000000",
+      "bids": [
+        { "workerAccount": "writer.garnett-swarmbid.testnet", "priceYocto": "280000000000000000000000", "etaMinutes": 5, "reason": "Summary with required sections", "round": 1 },
+        { "workerAccount": "reviewer.garnett-swarmbid.testnet", "priceYocto": "290000000000000000000000", "etaMinutes": 6, "reason": "Summary and checks", "round": 1 },
+        { "workerAccount": "writer.garnett-swarmbid.testnet", "priceYocto": "250000000000000000000000", "etaMinutes": 5, "reason": "Revised price", "round": 2 }
+      ],
+      "chosenBidId": null,
+      "escrowTxHash": "sample-create-t1",
+      "deliverable": { "path": "examples/out.md", "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" }
+    },
+    {
+      "id": "t2",
+      "title": "Write acceptance checklist",
+      "state": "Refunded",
+      "budgetYocto": "1234567890123456789012345",
+      "bids": [
+        { "workerAccount": "reviewer.garnett-swarmbid.testnet", "priceYocto": "1000000000000000000000000", "etaMinutes": 8, "reason": "Checklist with required checks", "round": 1 }
+      ],
+      "chosenBidId": null,
+      "escrowTxHash": "sample-create-t2",
+      "deliverable": { "path": "examples/checklist.md", "sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb" }
+    }
+  ],
+  "receipts": [
+    {
+      "receiptId": "sample-receipt-t1",
+      "taskId": "t1",
+      "buyer": "buyer.garnett-swarmbid.testnet",
+      "worker": "writer.garnett-swarmbid.testnet",
+      "amountYocto": "250000000000000000000000",
+      "result": "Released",
+      "checksSummary": "4/4",
+      "txHashes": { "createJob": "sample-create-t1", "release": "sample-release-t1" },
+      "timestamp": "2026-11-09T00:00:00Z"
+    },
+    {
+      "receiptId": "sample-receipt-t2",
+      "taskId": "t2",
+      "buyer": "buyer.garnett-swarmbid.testnet",
+      "worker": "reviewer.garnett-swarmbid.testnet",
+      "amountYocto": "1000000000000000000000000",
+      "result": "Refunded",
+      "checksSummary": "3/4",
+      "txHashes": { "createJob": "sample-create-t2", "refund": "sample-refund-t2" },
+      "timestamp": "2026-11-09T00:10:00Z"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "lines": [
+    "P1 counter={\"bidId\":\"0c271694-562a-4bf0-8c95-023142bd5ec3\",\"workerAccount\":\"researcher.garnett-swarmbid.testnet\",\"counterPriceYocto\":\"240000000000000000000000\",\"reason\":\"Counteroffer at 80 percent of budget\",\"round\":2}",
+    "P1 state after award=Awarded chosen price=240000000000000000000000",
+    "P1 funded escrowTx=8R1jonhE25AmNeZeDU82Wtgfc68u9JRhchft43VwUtAB onchain={\"buyer\":\"buyer.garnett-swarmbid.testnet\",\"worker\":\"researcher.garnett-swarmbid.testnet\",\"amount\":\"240000000000000000000000\",\"state\":\"Funded\"}",
+    "P1 acceptance pass=true checks=wordCount:true,section:Summary:true,section:Findings:true,keyword:agent:true,keyword:escrow:true,sha256:true",
+    "P1 receipt result=Released amount=240000000000000000000000 txs={\"createJob\":\"8R1jonhE25AmNeZeDU82Wtgfc68u9JRhchft43VwUtAB\",\"release\":\"Ef2RuFzCttDYqDZsiBXkfAvQb3Rb9DNhUVtxtLhaJRJR\"}",
+    "P1 researcher delta=240000000000000000000000 expect=240000000000000000000000",
+    "P1 onchain final={\"buyer\":\"buyer.garnett-swarmbid.testnet\",\"worker\":\"researcher.garnett-swarmbid.testnet\",\"amount\":\"240000000000000000000000\",\"state\":\"Released\"}",
+    "P2 state after award=Awarded",
+    "P2 funded escrowTx=6G9ybAJHy1twU2uWT3qHD2D1oERaLsr51SNR6jks1fUi",
+    "P2 acceptance pass=false (expect false)",
+    "P2 receipt result=Refunded txs={\"createJob\":\"6G9ybAJHy1twU2uWT3qHD2D1oERaLsr51SNR6jks1fUi\",\"refund\":\"7yFDpg6FDuxUwnjfxPVqS5tMibMJrjhk42zQKXNtNnzt\"}",
+    "P2 onchain final={\"buyer\":\"buyer.garnett-swarmbid.testnet\",\"worker\":\"writer.garnett-swarmbid.testnet\",\"amount\":\"50000000000000000000000\",\"state\":\"Refunded\"}",
+    "RECEIPTS file=/home/hatch/workspace/goals/ai/hidden_files/near-hackathon/swarmbid/itest-receipts-mw88tn3j.jsonl",
+    "ITEST_DONE"
+  ]
+}

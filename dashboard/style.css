@@ -1,0 +1,48 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #192b3b; background: #f3f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; line-height: 1.5; }
+header { background: #182f43; color: #fff; padding: 24px 0; }
+.wrap { max-width: 1180px; margin: auto; padding: 0 24px; }
+h1 { font-size: 1.8rem; margin: 0; }
+header p { margin: 4px 0 0; color: #d2e0eb; }
+main { padding-bottom: 48px !important; }
+#load-status { padding: 12px 0; color: #465c6f; overflow-wrap: anywhere; }
+section { margin: 24px 0; }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1.1rem; margin: 0; overflow-wrap: anywhere; }
+h4 { margin: 24px 0 10px; }
+.card { background: white; border: 1px solid #d9e2e9; border-radius: 10px; padding: 22px; min-width: 0; }
+.task + .task { margin-top: 18px; }
+.card-heading { display: flex; justify-content: space-between; align-items: start; gap: 16px; }
+.badge { display: inline-block; padding: 3px 10px; border-radius: 5px; font-size: .8rem; font-weight: 650; white-space: nowrap; background: #e8edf1; color: #374754; }
+.state-open, .state-bidding { background: #e0efff; color: #144e87; }
+.state-negotiating, .counteroffer { background: #fff0ca; color: #704800; }
+.state-awarded, .state-funded { background: #eae4ff; color: #51348c; }
+.state-delivered, .state-accepted { background: #d8f2f5; color: #175660; }
+.state-released { background: #dcf3e4; color: #1d6338; }
+.state-refunded { background: #ffe5d6; color: #833e19; }
+.state-cancelled { background: #fbe0e3; color: #8c2635; }
+dl { display: grid; grid-template-columns: minmax(100px, 165px) minmax(0, 1fr); gap: 8px 16px; font-size: .9rem; }
+dt { color: #526575; }
+dd { margin: 0; overflow-wrap: anywhere; font-variant-numeric: tabular-nums; }
+.table-scroll { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; text-align: left; font-size: .875rem; }
+th, td { border-bottom: 1px solid #e3e9ee; padding: 12px 10px; vertical-align: top; }
+th { background: #f3f6f8; color: #465c6f; }
+td { overflow-wrap: anywhere; min-width: 110px; }
+td:first-child { min-width: 200px; }
+td:last-child { min-width: 160px; }
+.receipt-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.transaction-links { display: flex; gap: 10px 20px; flex-wrap: wrap; }
+a { color: #155a97; text-underline-offset: 3px; overflow-wrap: anywhere; }
+a:hover { color: #0a355d; }
+:focus-visible { outline: 3px solid #216db0; outline-offset: 3px; }
+.empty { color: #526575; padding: 14px 0; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+@media (max-width: 720px) {
+  .wrap { padding: 0 16px; }
+  .receipt-grid { grid-template-columns: 1fr; }
+  .card { padding: 16px; }
+  .card-heading { flex-wrap: wrap; }
+  dl { grid-template-columns: 110px minmax(0, 1fr); gap: 8px; }
+}

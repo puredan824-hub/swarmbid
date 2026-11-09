@@ -1,0 +1,11 @@
+import { writeBriefing } from "../src/workers/dist/workers/writer.js";
+import { checkAcceptance } from "../src/board/dist/acceptance.js";
+import fs from "node:fs";
+const task = JSON.parse(fs.readFileSync("examples/sample-task.json", "utf8"));
+const notes = JSON.parse(fs.readFileSync("examples/sample-notes.json", "utf8"));
+const art = await writeBriefing(notes, task);
+const chk = checkAcceptance(art.text, task.spec);
+fs.mkdirSync("output/llm-smoke", { recursive: true });
+fs.writeFileSync("output/llm-smoke/deliverable.md", art.text);
+fs.writeFileSync("output/llm-smoke/meta.json", JSON.stringify({ meta: art.meta, words: art.text.trim().split(/\s+/).length, acceptancePass: chk.pass }, null, 2));
+console.log("degraded:", art.meta.degraded, "| method:", art.meta.method, "| words:", art.text.trim().split(/\s+/).length, "| pass:", chk.pass);

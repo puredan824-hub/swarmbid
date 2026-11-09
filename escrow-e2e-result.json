@@ -1,0 +1,20 @@
+{
+  "wasm": "contracts/escrow/build/escrow.wasm",
+  "lines": [
+    "WASM bytes=541113",
+    "DEPLOY tx=BgmBbeSYBbErExRxUaMD8GpHESVJvRV44WNRkGxnXoKs status={\"SuccessValue\":\"\"}",
+    "A create_job tx=H915E4BSPqpLcyCT3bhT2bJm9HoCURC7aU4fVd9HSwff",
+    "A get_job={\"block_hash\":\"BsWxQXvZUaqp9QaWz3MtQQoGUQLanYhiDGqGfd7xTCMv\",\"block_height\":276819315,\"logs\":[],\"result\":[123,34,98,117,121,101,114,34,58,34,98,117,121,101,114,46,103,97,114,110,101,116,116,45,115,119,97,114,109,98,105,100,46,116,101,115,116,110,101,116,34,44,34,119,111,114,107,101,114,34,58,34,119,114,105,116,101,114,46,103,97,114,110,101,116,116,45,115,119,97,114,109,98,105,100,46,116,101,115,116,110,101,116,34,44,34,97,109,111,117,110,116,34,58,34,49,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,56,51,56,56,54,48,56,34,44,34,115,116,97,116,101,34,58,34,70,117,110,100,101,100,34,125]}",
+    "A release tx=2JvTLq2mG9wSxoKiK4D8AMBWkCAq8GBc9LCgUTpecNwM",
+    "A writer delta yocto=100000000000000008388608 (expect 100000000000000000000000)",
+    "A get_job after={\"block_hash\":\"2cj74TXLduBzptC1ogafQ26qk1heHpeUkPAq8Vr6ZuUW\",\"block_height\":276819340,\"logs\":[],\"result\":[123,34,98,117,121,101,114,34,58,34,98,117,121,101,114,46,103,97,114,110,101,116,116,45,115,119,97,114,109,98,105,100,46,116,101,115,116,110,101,116,34,44,34,119,111,114,107,101,114,34,58,34,119,114,105,116,101,114,46,103,97,114,110,101,116,116,45,115,119,97,114,109,98,105,100,46,116,101,115,116,110,101,116,34,44,34,97,109,111,117,110,116,34,58,34,49,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,56,51,56,56,54,48,56,34,44,34,115,116,97,116,101,34,58,34,82,101,108,101,97,115,101,100,34,125]}",
+    "B create_job tx=9DGEiGLgp5UD34XWg8wmtjrjtAeRgv5WSvwSuLEz34ip",
+    "B refund tx=6HwXb1gjeNexBaVJVy6NjxkYNNXvFG8CV3DA2cb2tP7k",
+    "B buyer net delta yocto=-2067339738182700000000 (expect small negative = gas only, > -0.01 NEAR)",
+    "B get_job after={\"block_hash\":\"3SSYbV1s5L4owu5qxempPioZtQxFG3yjGexhDVZ7PVzC\",\"block_height\":276819386,\"logs\":[],\"result\":[123,34,98,117,121,101,114,34,58,34,98,117,121,101,114,46,103,97,114,110,101,116,116,45,115,119,97,114,109,98,105,100,46,116,101,115,116,110,101,116,34,44,34,119,111,114,107,101,114,34,58,34,119,114,105,116,101,114,46,103,97,114,110,101,116,116,45,115,119,97,114,109,98,105,100,46,116,101,115,116,110,101,116,34,44,34,97,109,111,117,110,116,34,58,34,49,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,56,51,56,56,54,48,56,34,44,34,115,116,97,116,101,34,58,34,82,101,102,117,110,100,101,100,34,125]}",
+    "C create_job tx=BTzGwMCpZBrob8oLXhYyYAqYNxy7g2CHrAJgkzqAA2xT",
+    "C non-buyer release: FAILED as expected hash=null err=Smart contract panicked: assertion failed: Only the buyer can release this job\n    at assert (build/escrow.js:2227)\n    at release (build/escrow.js:3438)\n    at apply (native)\n    at <anonymous> (build/escrow.js:2860)\n    at release (build/escrow.js:3502)\n",
+    "C duplicate create_job: FAILED as expected hash=null err=Smart contract panicked: assertion failed: Job already exists\n    at assert (build/escrow.js:2227)\n    at create_job (build/escrow.js:3421)\n    at apply (native)\n    at <anonymous> (build/escrow.js:2860)\n    at create_job (build/escrow.js:3516)\n",
+    "C cleanup refund tx=8zXBq4ELE1Nn8cCJRTmaE8LwkEk9cfuAp32FwxVckWP7"
+  ]
+}
